@@ -32,28 +32,36 @@ http://ios-class-for-beginner.esy.es/
 > 0-5. Select the place for saving your project and then tap "Create"
 
 #### 1, Collect resources → Drag & Drop your resources into your project
+  
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/0.png" /></div>
+  
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/0.gif" /></div>
 
 #### 2, Design app
 > 2-1. Drap & Drop "UITableView" from UI components
+  
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/1.gif" /></div>
 
 > 2-2. Resize UITableView. After that, set "Autoresizing" for adjusting frame depending on devices
+  
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/2.gif" /></div>
 
 > 2-3. Drap & Drop "UITableViewCell" from UI components
+  
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/3.gif" /></div>
 
 > 2-4. After added "UIImageView", "UILabel" on the cell, do the same process of 2-2.
+  
   ★  It might be easy to <a href="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/4.png">change tableView style</a> to "Grouped"
 
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/4.gif" /></div>
-
+  
   Your storyboard may look like this
+  
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/5.png" /></div>
   
 #### 3, Add a new file
+  
   > 3-1. Add a file subclassed of "UITableViewCell"
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/5.gif" /></div>
 
@@ -63,6 +71,7 @@ http://ios-class-for-beginner.esy.es/
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/6.gif" /></div>
 
 #### 4, Connect UI components on Storyboard to the classes
+  
   ★  control + drag in storyboard to create a control segue
   
   > 4-1. Connect "UITableVIew" to your ViewController class
