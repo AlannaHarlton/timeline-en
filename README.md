@@ -1,6 +1,6 @@
 # Code Together: Let's make iPhone app in an hour
 
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/sample.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/sample.gif" /></div>
 
   Thank you for visiting our account. We are going to make a simple SNS app in an hour. If would you like to study yourself before hands-on, or review what you have learned in the session, please use the following material.
 
