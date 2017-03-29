@@ -15,15 +15,15 @@ We also hold face-to-face or group lesson for individual interested in making iO
 http://ios-class-for-beginner.esy.es/
 
 ## Development Environment
-  XCode 8.1 / Swift 3
+  Xcode 8.1 / Swift 3
 
 ## Full procedure
 
 #### 0, Create your project
 
-> 0-1. Open XCode  
+> 0-1. Open Xcode 
 
-> 0-2. Select "Create a new XCode project"
+> 0-2. Select "Create a new Xcode project"
 
 > 0-3. Select "Single View Application" and then tap "Next"
 
@@ -31,26 +31,42 @@ http://ios-class-for-beginner.esy.es/
 
 > 0-5. Select the place for saving your project and then tap "Create"
 
-#### 1, Collect photos → Drag & Drop your resources into your project
+#### 1, Collect resources → Drag & Drop your resources into your project
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/0.png" /></div>
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/0.gif" /></div>
 
 #### 2, Design app
-> 2-1. Drap & Drop "UIScrollView" from UI components
+> 2-1. Drap & Drop "UITableView" from UI components
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/1.gif" /></div>
 
-> 2-2. Resize ScrollView
+> 2-2. Resize UITableView. After that, set "Autoresizing" for adjusting frame depending on devices
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/2.gif" /></div>
 
-> 2-3. Set "Autoresizing" for adjusting frame depending on devices
+> 2-3. Drap & Drop "UITableViewCell" from UI components
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/3.gif" /></div>
 
-> 2-4. Connect UI components on Storyboard to ViewController.swift
+> 2-4. After added "UIImageView", "UILabel" on the cell, do the same process of 2-2.
+  ★  It might be easy to <a href="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/4.png">change tableView style</a> to "Grouped"
 
- ★  control + drag in storyboard to create a control segue
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/4.gif" /></div>
 
-#### 3, Add code blocks in ViewController.swift
+  Your storyboard may look like this
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/5.png" /></div>
+
+#### 3, Add a file subclassed of "UITableViewCell"
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/5.gif" /></div>
+
+
+#### 4, Connect UI components on Storyboard to the classes
+  ★  control + drag in storyboard to create a control segue
+  > 4-1. UITableViewCell.swift
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/6.gif" /></div>
+
+  > 4-2. ViewController.swift
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/7.gif" /></div>
+
+
+#### 5, Add code blocks in ViewController.swift
 
 ★ It's preferable to write following code yourself. It will help you to understand code more.
 
