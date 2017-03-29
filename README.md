@@ -1,6 +1,8 @@
+https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources
+
 # Code Together: Let's make iPhone app in an hour
 
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/sample.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources/sample.gif" /></div>
 
   Thank you for visiting our account. We are going to make a simple SNS app in an hour. If would you like to study yourself before hands-on, or review what you have learned in the session, please use the following material.
 
@@ -32,23 +34,23 @@ http://ios-class-for-beginner.esy.es/
 > 0-5. Select the place for saving your project and then tap "Create"
 
 #### 1, Collect photos → Drag & Drop your resources into your project
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/0.png" /></div>
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/0.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources/0.png" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources/0.gif" /></div>
 
 #### 2, Design app
 > 2-1. Drap & Drop "UIScrollView" from UI components
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/1.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources/1.gif" /></div>
 
 > 2-2. Resize ScrollView
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/2.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources/2.gif" /></div>
 
 > 2-3. Set "Autoresizing" for adjusting frame depending on devices
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/3.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources/3.gif" /></div>
 
 > 2-4. Connect UI components on Storyboard to ViewController.swift
 
  ★  control + drag in storyboard to create a control segue
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/Resources/4.gif" /></div>
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/tree/master/timeline-en/Resources/4.gif" /></div>
 
 #### 3, Add code blocks in ViewController.swift
 
