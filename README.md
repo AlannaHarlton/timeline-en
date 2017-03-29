@@ -53,18 +53,21 @@ http://ios-class-for-beginner.esy.es/
   Your storyboard may look like this
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/5.png" /></div>
 
-#### 3, Add a file subclassed of "UITableViewCell"
+#### 3, Add a new file
+  > 3-1. Add a file subclassed of "UITableViewCell"
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/5.gif" /></div>
 
+  > 3-2. UITableViewCell
+  ★  Don't forget to add "class name" and "identifer". Otherwise your app will be clashed
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/6.gif" /></div>
 
 #### 4, Connect UI components on Storyboard to the classes
   ★  control + drag in storyboard to create a control segue
-  > 4-1. UITableViewCell.swift
-  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/6.gif" /></div>
-
-  > 4-2. ViewController.swift
+  > 4-1. ViewController.swift
   <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/7.gif" /></div>
 
+  > 4-2. UITableViewCell
+  <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/timeline-en/blob/master/timeline-en/Resources/8.gif" /></div>
 
 #### 5, Add code blocks in ViewController.swift
 
